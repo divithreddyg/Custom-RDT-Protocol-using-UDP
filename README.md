@@ -28,7 +28,7 @@ docker run -it -p 8080:8080 --cap-add=NET_ADMIN --net nodenet --ip 172.18.0.22 j
 
 The protocol runs on UDP with a size of 1034 bits which contains 9bits of header and 1024 bits of data.
 
- ![alt text](Packet-structure.png "Image")
+ ![alt text](Packet-stucture.PNG "Image")
 
 The rover and the lander have two ports. One for sending the data and receiving the Ack and the other for receiving the data and sending the ACK
 
